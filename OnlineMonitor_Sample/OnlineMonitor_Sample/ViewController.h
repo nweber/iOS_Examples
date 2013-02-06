@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  JSON_Sample
+//  OnlineMonitor_Sample
 //
 //  Created by Nathan Weber on 2/5/13.
 //  Copyright (c) 2013 Nathan Weber. All rights reserved.
@@ -10,10 +10,8 @@
 
 @interface ViewController : UIViewController
 {
-    IBOutlet UITextView *jsonOutput;
-    IBOutlet UITextView *readableOutput;
+    IBOutlet UILabel *outputLabel;
+    IBOutlet UIImageView *outputImage;
 }
-
-- (IBAction)doLoad:(id)sender;
 
 @end

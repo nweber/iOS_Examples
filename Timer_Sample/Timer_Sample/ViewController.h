@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  JSON_Sample
+//  Timer_Sample
 //
-//  Created by Nathan Weber on 2/5/13.
+//  Created by Nathan Weber on 2/6/13.
 //  Copyright (c) 2013 Nathan Weber. All rights reserved.
 //
 
@@ -10,10 +10,7 @@
 
 @interface ViewController : UIViewController
 {
-    IBOutlet UITextView *jsonOutput;
-    IBOutlet UITextView *readableOutput;
+    IBOutlet UILabel *outputLabel;
 }
-
-- (IBAction)doLoad:(id)sender;
 
 @end
